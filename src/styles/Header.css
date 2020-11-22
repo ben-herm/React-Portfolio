@@ -1,0 +1,40 @@
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.ul li {
+  display: inline;
+  text-align: center;
+}
+
+a {
+  display: inline-block;
+  padding: 0.75rem 0;
+  margin: 0;
+  text-decoration: none;
+  color: #333;
+}
+
+.two:hover ~ .temp {
+  margin-left: 100px;
+}
+
+.three:hover ~ .temp {
+  margin-left: 50%;
+}
+
+.four:hover ~ .temp {
+  margin-left: 75%;
+}
+
+.temp {
+  height: 0.1rem;
+  width: 75px;
+  top: 45px;
+  margin-left: 10px;
+  /* background: rgb(145, 163, 163); */
+  position: absolute;
+  border: none;
+  transition: 0.3s ease-in-out;
+}
